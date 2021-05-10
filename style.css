@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+
+<style>
+{
+padding:10px;
+    margin:10px;
+}
+    body
+    {
+    background-image:url(); 
+    background-size: cover;
+    background-position:center;
+        background-color:cornsilk;
+    }
+         
+        
+            h1{
+                color:black;
+            }
+        
+
+           
+            
+            .kol-1{grid-column:span 1;}
+            .kol-2{grid-column:span 2;}
+            .kol-3{grid-column:span 3;}
+            .kol-4{grid-column:span 4;}
+            .kol-5{grid-column:span 5;}
+            .kol-6{grid-column:span 6;}
+            .kol-7{grid-column:span 7;}
+            .kol-8{grid-column:span 8;}
+            .kol-9{grid-column:span 9;}
+            .kol-10{grid-column:span 10;}
+            .kol-11{grid-column:span 11;}
+            .kol-12{grid-column:span 12;}
+            
+            nav{
+                
+                
+                display:grid;
+                grid-template-columns:auto repeat(5,1fr);
+                align-items:center;
+                margin-bottom:10px;
+                font-style: italic;
+                
+            
+                
+               
+                
+                
+            }
+            nav{
+                background-color:gray;
+                font-weight:700px;
+                font-size:32px;
+                    
+                }
+
+
+<style>
+.img {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.img:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+ {box-sizing: border-box}
+
+.container {
+  padding: 16px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+
+</style>
+                
